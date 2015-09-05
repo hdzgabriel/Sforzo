@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		632124051B9AA99400C63C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632124041B9AA99400C63C1B /* AppDelegate.swift */; };
+		632124071B9AA99400C63C1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632124061B9AA99400C63C1B /* ViewController.swift */; };
+		6321240A1B9AA99400C63C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632124081B9AA99400C63C1B /* Main.storyboard */; };
+		6321240D1B9AA99400C63C1B /* Sforzo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6321240B1B9AA99400C63C1B /* Sforzo.xcdatamodeld */; };
+		6321240F1B9AA99400C63C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6321240E1B9AA99400C63C1B /* Assets.xcassets */; };
+		632124121B9AA99400C63C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632124101B9AA99400C63C1B /* LaunchScreen.storyboard */; };
+		6321241D1B9AA99500C63C1B /* SforzoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6321241C1B9AA99500C63C1B /* SforzoTests.swift */; };
+		632124281B9AA99500C63C1B /* SforzoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632124271B9AA99500C63C1B /* SforzoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		632124191B9AA99500C63C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 632123F91B9AA99400C63C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 632124001B9AA99400C63C1B;
+			remoteInfo = Sforzo;
+		};
+		632124241B9AA99500C63C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 632123F91B9AA99400C63C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 632124001B9AA99400C63C1B;
+			remoteInfo = Sforzo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		632124011B9AA99400C63C1B /* Sforzo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sforzo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		632124041B9AA99400C63C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		632124061B9AA99400C63C1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		632124091B9AA99400C63C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6321240C1B9AA99400C63C1B /* Sforzo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sforzo.xcdatamodel; sourceTree = "<group>"; };
+		6321240E1B9AA99400C63C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		632124111B9AA99400C63C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		632124131B9AA99400C63C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632124181B9AA99400C63C1B /* SforzoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SforzoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6321241C1B9AA99500C63C1B /* SforzoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SforzoTests.swift; sourceTree = "<group>"; };
+		6321241E1B9AA99500C63C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632124231B9AA99500C63C1B /* SforzoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SforzoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		632124271B9AA99500C63C1B /* SforzoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SforzoUITests.swift; sourceTree = "<group>"; };
+		632124291B9AA99500C63C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		632123FE1B9AA99400C63C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632124151B9AA99400C63C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632124201B9AA99500C63C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		632123F81B9AA99400C63C1B = {
+			isa = PBXGroup;
+			children = (
+				632124031B9AA99400C63C1B /* Sforzo */,
+				6321241B1B9AA99500C63C1B /* SforzoTests */,
+				632124261B9AA99500C63C1B /* SforzoUITests */,
+				632124021B9AA99400C63C1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		632124021B9AA99400C63C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				632124011B9AA99400C63C1B /* Sforzo.app */,
+				632124181B9AA99400C63C1B /* SforzoTests.xctest */,
+				632124231B9AA99500C63C1B /* SforzoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		632124031B9AA99400C63C1B /* Sforzo */ = {
+			isa = PBXGroup;
+			children = (
+				632124041B9AA99400C63C1B /* AppDelegate.swift */,
+				632124061B9AA99400C63C1B /* ViewController.swift */,
+				632124081B9AA99400C63C1B /* Main.storyboard */,
+				6321240E1B9AA99400C63C1B /* Assets.xcassets */,
+				632124101B9AA99400C63C1B /* LaunchScreen.storyboard */,
+				632124131B9AA99400C63C1B /* Info.plist */,
+				6321240B1B9AA99400C63C1B /* Sforzo.xcdatamodeld */,
+			);
+			path = Sforzo;
+			sourceTree = "<group>";
+		};
+		6321241B1B9AA99500C63C1B /* SforzoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6321241C1B9AA99500C63C1B /* SforzoTests.swift */,
+				6321241E1B9AA99500C63C1B /* Info.plist */,
+			);
+			path = SforzoTests;
+			sourceTree = "<group>";
+		};
+		632124261B9AA99500C63C1B /* SforzoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				632124271B9AA99500C63C1B /* SforzoUITests.swift */,
+				632124291B9AA99500C63C1B /* Info.plist */,
+			);
+			path = SforzoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		632124001B9AA99400C63C1B /* Sforzo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6321242C1B9AA99500C63C1B /* Build configuration list for PBXNativeTarget "Sforzo" */;
+			buildPhases = (
+				632123FD1B9AA99400C63C1B /* Sources */,
+				632123FE1B9AA99400C63C1B /* Frameworks */,
+				632123FF1B9AA99400C63C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sforzo;
+			productName = Sforzo;
+			productReference = 632124011B9AA99400C63C1B /* Sforzo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		632124171B9AA99400C63C1B /* SforzoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6321242F1B9AA99500C63C1B /* Build configuration list for PBXNativeTarget "SforzoTests" */;
+			buildPhases = (
+				632124141B9AA99400C63C1B /* Sources */,
+				632124151B9AA99400C63C1B /* Frameworks */,
+				632124161B9AA99400C63C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6321241A1B9AA99500C63C1B /* PBXTargetDependency */,
+			);
+			name = SforzoTests;
+			productName = SforzoTests;
+			productReference = 632124181B9AA99400C63C1B /* SforzoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		632124221B9AA99500C63C1B /* SforzoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632124321B9AA99500C63C1B /* Build configuration list for PBXNativeTarget "SforzoUITests" */;
+			buildPhases = (
+				6321241F1B9AA99500C63C1B /* Sources */,
+				632124201B9AA99500C63C1B /* Frameworks */,
+				632124211B9AA99500C63C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				632124251B9AA99500C63C1B /* PBXTargetDependency */,
+			);
+			name = SforzoUITests;
+			productName = SforzoUITests;
+			productReference = 632124231B9AA99500C63C1B /* SforzoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		632123F91B9AA99400C63C1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Akiko Inc.";
+				TargetAttributes = {
+					632124001B9AA99400C63C1B = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = F482U52T48;
+					};
+					632124171B9AA99400C63C1B = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = F482U52T48;
+						TestTargetID = 632124001B9AA99400C63C1B;
+					};
+					632124221B9AA99500C63C1B = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = F482U52T48;
+						TestTargetID = 632124001B9AA99400C63C1B;
+					};
+				};
+			};
+			buildConfigurationList = 632123FC1B9AA99400C63C1B /* Build configuration list for PBXProject "Sforzo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 632123F81B9AA99400C63C1B;
+			productRefGroup = 632124021B9AA99400C63C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				632124001B9AA99400C63C1B /* Sforzo */,
+				632124171B9AA99400C63C1B /* SforzoTests */,
+				632124221B9AA99500C63C1B /* SforzoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		632123FF1B9AA99400C63C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632124121B9AA99400C63C1B /* LaunchScreen.storyboard in Resources */,
+				6321240F1B9AA99400C63C1B /* Assets.xcassets in Resources */,
+				6321240A1B9AA99400C63C1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632124161B9AA99400C63C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632124211B9AA99500C63C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		632123FD1B9AA99400C63C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632124071B9AA99400C63C1B /* ViewController.swift in Sources */,
+				6321240D1B9AA99400C63C1B /* Sforzo.xcdatamodeld in Sources */,
+				632124051B9AA99400C63C1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632124141B9AA99400C63C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6321241D1B9AA99500C63C1B /* SforzoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6321241F1B9AA99500C63C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632124281B9AA99500C63C1B /* SforzoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6321241A1B9AA99500C63C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 632124001B9AA99400C63C1B /* Sforzo */;
+			targetProxy = 632124191B9AA99500C63C1B /* PBXContainerItemProxy */;
+		};
+		632124251B9AA99500C63C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 632124001B9AA99400C63C1B /* Sforzo */;
+			targetProxy = 632124241B9AA99500C63C1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		632124081B9AA99400C63C1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632124091B9AA99400C63C1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		632124101B9AA99400C63C1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632124111B9AA99400C63C1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6321242A1B9AA99500C63C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6321242B1B9AA99500C63C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6321242D1B9AA99500C63C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Sforzo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akiko.sforzo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6321242E1B9AA99500C63C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Sforzo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akiko.sforzo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		632124301B9AA99500C63C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SforzoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akiko.SforzoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sforzo.app/Sforzo";
+			};
+			name = Debug;
+		};
+		632124311B9AA99500C63C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SforzoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akiko.SforzoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sforzo.app/Sforzo";
+			};
+			name = Release;
+		};
+		632124331B9AA99500C63C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SforzoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akiko.SforzoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sforzo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		632124341B9AA99500C63C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SforzoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akiko.SforzoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sforzo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		632123FC1B9AA99400C63C1B /* Build configuration list for PBXProject "Sforzo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6321242A1B9AA99500C63C1B /* Debug */,
+				6321242B1B9AA99500C63C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6321242C1B9AA99500C63C1B /* Build configuration list for PBXNativeTarget "Sforzo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6321242D1B9AA99500C63C1B /* Debug */,
+				6321242E1B9AA99500C63C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6321242F1B9AA99500C63C1B /* Build configuration list for PBXNativeTarget "SforzoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632124301B9AA99500C63C1B /* Debug */,
+				632124311B9AA99500C63C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		632124321B9AA99500C63C1B /* Build configuration list for PBXNativeTarget "SforzoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632124331B9AA99500C63C1B /* Debug */,
+				632124341B9AA99500C63C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6321240B1B9AA99400C63C1B /* Sforzo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6321240C1B9AA99400C63C1B /* Sforzo.xcdatamodel */,
+			);
+			currentVersion = 6321240C1B9AA99400C63C1B /* Sforzo.xcdatamodel */;
+			path = Sforzo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 632123F91B9AA99400C63C1B /* Project object */;
+}
